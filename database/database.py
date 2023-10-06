@@ -5,4 +5,4 @@ user_dict_template = {
 }
 
 # Инициализируем "базу данных"
-user_db = {}
+users_db = {}
