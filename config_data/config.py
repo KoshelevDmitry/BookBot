@@ -5,7 +5,7 @@ from environs import Env
 @dataclass
 class TgBot:
     token: str                  # Токен для доступа к телеграм-боту
-    token_ids: list[int]        # Список id администраторов бота
+    admin_ids: list[int]        # Список id администраторов бота
 
 
 @dataclass
